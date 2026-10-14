@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\blog",
+    "\\blog\\blog",
+    "\\blog\\posts",
+    "\\blog\\posts\\migrations",
+    "\\blog\\posts\\migrations\\__pycache__",
+    "\\blog\\posts\\templates"
+  ],
+  "SelectedNode": "\\blog\\posts\\templates\\register.html",
+  "PreviewInSolutionExplorer": false
+}
