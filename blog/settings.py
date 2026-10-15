@@ -168,5 +168,10 @@ MAILERS = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://" + RENDER_EXTERNAL_HOSTNAME
-] if RENDER_EXTERNAL_HOSTNAME else []
+    "https://hanaahany.pythonanywhere.com",
+]
+
+if RENDER_EXTERNAL_HOSTNAME:
+    CSRF_TRUSTED_ORIGINS.append(
+        "https://" + RENDER_EXTERNAL_HOSTNAME
+    )
